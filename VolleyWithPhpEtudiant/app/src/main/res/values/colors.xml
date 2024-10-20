@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Couleurs principales de l'application -->
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <!-- Couleurs supplémentaires -->
+    <color name="colorBackground">#FFFFFF</color> <!-- Couleur de fond -->
+    <color name="colorText">#000000</color> <!-- Couleur de texte principal -->
+    <color name="colorSecondaryText">#757575</color> <!-- Couleur de texte secondaire -->
+    <color name="colorError">#B00020</color> <!-- Couleur d'erreur -->
+
+    <!-- Couleurs personnalisées -->
+    <color name="lightGray">#F0F0F0</color> <!-- Gris clair pour les arrière-plans -->
+    <color name="darkGray">#A9A9A9</color> <!-- Gris foncé pour les textes ou éléments secondaires -->
+</resources>

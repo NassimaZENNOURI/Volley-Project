@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">VolleyWithPhpEtudiant</string>
+    <string-array name="villes">
+        <item>Rabat</item>
+        <item>Marrakech</item>
+        <item>Agadir</item>
+    </string-array>
+</resources>

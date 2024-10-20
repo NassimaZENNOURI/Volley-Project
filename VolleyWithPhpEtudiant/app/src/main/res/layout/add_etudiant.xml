@@ -1,0 +1,120 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_height="match_parent"
+    tools:context="com.example.volleywithphpetudiant.MainActivity">
+
+    <TextView
+        style="@style/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ajouter Un Etudiant"
+        android:textColor="#009989"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:paddingBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nom : "
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:paddingBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/nom"
+        style="@style/input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:background="@drawable/edit_text_background"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Prénom :"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:paddingBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/prenom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        style="@style/input"
+        android:inputType="textPersonName"
+        android:background="@drawable/edit_text_background"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        style="@style/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ville"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:paddingBottom="8dp"/>
+
+    <Spinner
+        android:id="@+id/ville"
+        android:entries="@array/villes"
+        style="@style/input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_background"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        style="@style/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sexe :"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:paddingBottom="8dp"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        style="@style/text"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/m"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Homme" />
+        <RadioButton
+            android:id="@+id/f"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Femme" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ajouter"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/colorAccent"
+        android:padding="12dp"
+        android:layout_marginTop="16dp"/>
+
+
+
+</LinearLayout>
